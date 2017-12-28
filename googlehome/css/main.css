@@ -1,0 +1,89 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar {
+    float: right;
+    background-color: #fff!important;
+    font-size: 14px;
+    color: #000!important;
+}
+
+.nav-item>a {
+    color: #000!important;
+}
+
+.mainContent {
+    padding-top: 200px;
+}
+
+.mainContent>img {
+    width: 280px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.mainContent>input {
+    width: 600px;
+    outline: none;
+    height: 44px;
+    border: 1px solid #a0a0a0;
+    display: block;
+    margin-bottom: 20px;
+
+}
+.mainContent>input:hover {
+    box-shadow:1px 1px 1px 1px #b9b9b9;
+
+}
+ .actionBtn{
+	margin-left: 10px;
+	background-color: #f5f5f5;
+	border-color: #f5f5f5;
+	height: 50px;
+	padding: 5px 10px;
+	color: #757575;
+	font-size: 13px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.actionBtn:focus{
+	outline: none;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    color: #757575;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.leftElements > li{
+	list-style: none;
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+.leftElements{
+	margin-bottom: 0px;	
+	padding-left: 0px;
+}
+.rightElements > li{
+	list-style: none;
+	float: right;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+.languageList{
+	font-size: 16px;
+}
+.languageList > a{
+	cursor: pointer;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: #1a0dab!important;
+}
