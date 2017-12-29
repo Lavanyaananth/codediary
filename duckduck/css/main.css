@@ -1,0 +1,57 @@
+body{
+	background-color: #fff;
+}
+.logo{
+	width: 100px;
+	margin-top: 10px;
+}
+#navbarSupportedContent{
+	display: inline-block!important;
+}
+.navbar{
+	height: 100px;
+}
+.searchBar{
+	width: 500px!important;
+	margin-left: 20px;
+}
+.dropdown-toggle{
+	font-size: 14px;
+	font-weight: 300;
+}
+.dropdown-menu > a{
+	font-size: 18px!important;
+	font-weight: 400;
+	width: 400px;
+}
+.dropdown-menu > p{
+	padding: .25rem 1.5rem;
+	font-size: 12px!important;
+	font-weight: 300;
+
+}
+.dropdown{
+	padding-left: 100px;
+}
+.dropdown-menu{
+	top:45px;
+	left:60px;
+	margin-top: 10px;
+}
+.separator, .socialLink{
+	margin-top: 20px;
+	font-weight: 300;
+}
+.socialLink{
+	margin-top: 20px;
+	font-size: 14px!important;
+	font-weight: 300;
+	padding-left: 10px;
+	padding-top: 2px;
+}
+.results > a{
+	color: #6c00a2!important;
+	font-size: 28px;
+	font-weight: 500px!important;
+	padding-top: 10px;
+}
