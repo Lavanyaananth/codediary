@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title> Story Crock </title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/responsiveslides.min.js"></script>
+	</head>
+	<body>
+		 <div class="header-strip" style="width:100%;">
+			<div class="wrapper">
+				<div class="logo"> <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png"</a></div>
+				<ul id="menu">
+						<li><a href="#" class="menu-list">home</a></li>
+						<li><a href="story-landing.html" class="menu-list">stories</a></li>
+						<li><a href="collection.html" class="menu-list">collections</a></li>
+				</ul>
+			</div>
+		</div>
+		<div style="width:100%; height:510px;">
+			<img src="images/read.jpg" width="100%" height="520px;">
+		</div>
+			<div class="container">
+				<h2 class="container-title"> Travel through Story Crock </h2>
+				<p class="container-content">"There's always room for a story that can transport people to another place"</p>
+				<div class="container-row">
+					<div class="container-col1">
+						<img src="images/book_new.png" width="100px" height="100px">
+						<h2 class="col1-title"> Read and Discover</h2>
+						<p>Are You A Chain Reader? Here is your pot. Discover your world</p>
+					</div>
+					<div class="container-col2">
+						<img src="images/share.png" width="100px" height="100px">
+						<h2 class="col2-title"> Share the Love </h2>
+						<p>Don't be Selfish, Share the stories to all your Friends :) </p>
+					</div>
+			</div>
+			<div class="best-container">
+				<h2 class="best-container-title"> Best of the Rack </h2>
+				<div class="wrapper">
+					<div class="cards">
+						<div class="best-img">
+							<img src="images/best1.jpeg">
+						</div>
+						<div class="best-story-description-title"> Birbal the wise </div>
+							<p class="best-story-description">Stories from Akbar Birbal : Birbal and the Barber and The Sweet Smell</p>
+						</div>
+					</div>
+					<div class="cards">
+						<div class="best-img">
+							<img src="images/best2.jpeg">
+						</div>
+						<div class="best-story-description-title"> Tenali Raman tales </div>
+							<p class="best-story-description">Tenali; it turns out; had a solution to every problem that befell the kingdom--from the mundane to the bizarre</p>
+						</div>
+					</div>
+					<div class="cards">
+						<div class="best-img">
+							<img src="images/best3.jpeg">
+						</div>
+						<div class="best-story-description-title"> Famous Queens </div>
+							<p class="best-story-description">Stories of three queens who were known for their valour of protecting their people in the times of both peace and war</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<footer>
+				<p class="footer-content">  2014 StoryCrock. All Rights Reserved</p>
+			</footer>
+	</body>
+	<script type="text/javascript">
+		 $(document).ready(function(){
+    	 	$(".header-strip").sticky({topSpacing:0});
+    	    $("#slide").responsiveSlides({
+    	    	auto:true,            
+ 				timeout:2000,
+ 				pause:true,
+    	    })
+		});
+
+	</script>
+</html>

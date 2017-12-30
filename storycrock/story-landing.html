@@ -1,0 +1,155 @@
+<html>
+	<head> 
+		<title> STORIES </title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/story-style.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.sticky.js"></script>
+		<script type="text/javascript" src="js/jquery.mixitup.js"></script>
+		<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+		 <style type="text/css">
+	      .hidden {display: none;}
+	      </style>
+	 </head>
+	 <body>
+	 	 <div class="header-strip" style="width:100%;">
+			<div class="wrapper">
+				<div class="logo"><a class="navbar-brand" href="#"><img class="logo" src="images/logo.png"</a></div>
+				<ul id="menu">
+						<li><a href="index.html" class="menu-list">home</a></li>
+						<li><a href="#" class="menu-list">stories</a></li>
+						<li><a href="collection.html" class="menu-list">collections</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="banner">
+			<div class="head-txt"> Fill your bookshelf with Amazing Stories</div>
+			<div class="wrapper">
+				<div class="category-bar">
+					<div id="filter-wrapper">
+						<span>Categories</span>
+							<a href="#" class="filter" data-filter="all">All</a>
+							<a href="#" class="filter" data-filter=".category-1">Adventure</a>
+							<a href="#" class="filter" data-filter=".category-2">Fun and Fantasy</a>
+							<a href="#" class="filter" data-filter=".category-3">Science</a>
+					</div>	
+				</div>
+			<div class="listing-wrapper">
+				<div class="mix category-1">
+					<div class="cover">
+						<img src="images/storypage/purple.jpg" width="300px" height="250px">
+					</div>
+					<div class="story-info">
+						<h4 class="title"> Roxy learns to swim</h4>
+						<div class="read">
+							<img src="images/glass.png" width="20px" height="20px">
+						</div>
+					</div>
+				</div>
+				<div class="mix category-1">
+					<div class="cover">
+						<img src="images/storypage/pumpkin.jpg" width="300px" height="250px">
+					</div>
+					<div class="story-info">
+						<h4 class="title"> The pumpkin race</h4>
+						<div class="read">
+							<img src="images/glass.png" width="20px" height="20px">
+						</div>
+					</div>
+				</div>
+				<div class="mix category-1">
+					<div class="cover">
+						<img src="images/storypage/pigs.jpg" width="300px" height="250px">
+					</div>
+					<div class="story-info">
+						<h4 class="title"> The 3 little Pigs</h4>
+						<div class="read">
+							<img src="images/glass.png" width="20px" height="20px">
+						</div>
+					</div>
+				</div>
+				<div class="mix category-1">
+					<div class="cover">
+						<img src="images/storypage/noise.jpg" width="300px" height="250px">
+					</div>
+					<div class="story-info">
+						<h4 class="title"> Too much noise</h4>
+						<div class="read">
+							<img src="images/glass.png" width="20px" height="20px">
+						</div>
+					</div>
+				</div>
+				<div class="mix category-2">
+					<div class="cover">
+						<img src="images/storypage/chimney.jpg" width="300px" height="250px">
+					</div>
+					<div class="story-info">
+						<h4 class="title">Through chimney</h4>
+						<div class="read">
+							<img src="images/glass.png" width="20px" height="20px">
+						</div>
+					</div>
+				</div>
+				<div class="mix category-2">
+					<div class="cover">
+						<img src="images/storypage/santa.jpg" width="300px" height="250px">
+					</div>
+					<div class="story-info">
+						<h4 class="title"> Santa's Coming</h4>
+						<div class="read">
+							<img src="images/glass.png" width="20px" height="20px">
+						</div>
+					</div>
+				</div>
+				<div class="mix category-2">
+					<div class="cover">
+						<img src="images/storypage/kings.jpg" width="300px" height="250px">
+					</div>
+					<div class="story-info">
+						<h4 class="title">The Three Kings</h4>
+						<div class="read">
+							<img src="images/glass.png" width="20px" height="20px">
+						</div>
+					</div>
+				</div>
+				<div class="mix category-3">
+					<div class="cover">
+						<img src="images/storypage/facts.jpeg" width="300px" height="250px">
+					</div>
+					<div class="story-info">
+						<h4 class="title">News and Facts</h4>
+						<div class="read">
+							<img src="images/glass.png" width="20px" height="20px">
+						</div>
+					</div>
+				</div>
+				<div class="mix category-3">
+					<div class="cover">
+						<img src="images/storypage/busy.jpeg" width="300px" height="250px">
+					</div>
+					<div class="story-info">
+						<h4 class="title">The Busy Body</h4>
+						<div class="read">
+							<img src="images/glass.png" width="20px" height="20px">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<footer>
+				<p class="footer-content">  2014 StoryCrock. All Rights Reserved</p>
+		</footer 
+	 </body>
+	 <script type="text/javascript">
+		 $(document).ready(function(){
+    	 	$(".header-strip").sticky({topSpacing:0});
+    	 	 $('.listing-wrapper').mixItUp();
+    	    
+		});
+
+	</script>
+
+</html>
