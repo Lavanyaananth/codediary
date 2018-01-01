@@ -1,0 +1,117 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Template - test </title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,600italic,700italic,800' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/slippry.min.js"></script>
+    <link rel="stylesheet" href="css/slippry.css" />
+
+    <script>
+	jQuery(document).ready(function(){
+  jQuery('#slippry-demo').slippry({
+ // wrapper to wrap everything, including pager
+  // options
+  adaptiveHeight: true, // height of the sliders adapts to current slide
+  useCSS: true, // true, false -> fallback to js if no browser support
+  autoHover: false,
+  transition: 'horizontal'
+  })
+});
+</script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Start</a>
+            </div>
+            <ul class="nav nav-pills menuWrapper ">
+                <li role="presentation"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Features</a></li>
+                <li role="presentation"><a href="#">Portfolio</a></li>
+                <li role="presentation"><a href="#">Testimonial</a></li>
+                <li role="presentation"> <a href="#">Blog</a></li>
+                <li role="presentation"><a href="#">Clients</a></li>
+                <li role="presentation"><a href="#">Contact</a></li>
+            </ul>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+        </div>
+        <!-- /.container-fluid -->
+        
+    </nav>
+    <ul id="slippry-demo">
+            <li>
+                <a href="#slide1"><img src="image/Image-1.jpg"></a>
+            </li>
+            <li>
+                <a href="#slide2"><img src="image/Image-2.jpg"></a>
+            </li>
+            <li>
+                <a href="#slide3"><img src="image/Image-4.jpg"></a>
+            </li>
+        </ul>
+    <div class="readyContainer">
+    	<h1>Ready to start?</h1>
+    	<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui</p>
+    	<div class="col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2">
+    	 <button type="button" class="btn btn-default requestBtn">Request Quote</button>
+		</div>
+		<div class="col-md-3 col-sm-4">
+    	  <button type="button" class="btn btn-default viewBtn">View Portfolio</button>
+    	 </div>
+    </div>
+    <div class="workContainer">
+    	<div class="row">
+    		<h1>How it works?</h1>
+    		<div class="col-md-4 col-sm-6">
+    			<img src="image/icon-easel-flat.png">
+    			<h4> Sub heading</h4>
+    			<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+    		</div>
+    		<div class="col-md-4 col-sm-6">
+    			<img src="image/icon-comments-flat.png">
+    			<h4> Sub heading</h4>
+    			<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+    		</div>
+    		<div class="col-md-4 col-sm-6">
+    			<img src="image/icon-bag-flat.png">
+    			<h4> Sub heading</h4>
+    			<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+    		</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-4 col-sm-6">
+    			<img src="image/icon-calculator-flat.png">
+    			<h4> Sub heading</h4>
+    			<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+    		</div>
+    		<div class="col-md-4 col-sm-6">
+    			<img src="image/icon-photo-flat.png">
+    			<h4> Sub heading</h4>
+    			<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+    		</div>
+    		<div class="col-md-4 col-sm-6">
+    			<img src="image/icon-book-flat.png">
+    			<h4> Sub heading</h4>
+    			<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+    		</div>
+    	</div>
+    		
+    	</div>
+</body>
+
+</html>

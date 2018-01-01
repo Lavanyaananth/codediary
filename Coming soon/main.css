@@ -1,0 +1,16 @@
+body{
+	background-color: #E0BE86;
+	font-family: 'Raleway', sans-serif;
+}
+h1{
+	color: #fdfdfd;
+}
+.text-wrapper{
+	text-align: center;
+    padding-top: 100px;
+}
+.text-wrapper img{
+	width: 200px;
+	height: 200px;
+	
+}
