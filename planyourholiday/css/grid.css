@@ -1,0 +1,11 @@
+.wr-full{
+	margin: 5px 5px;
+}
+.wr-row{
+	width: 100%;
+	margin: 5px 5px;
+}
+.col3{
+	width: 33%;
+	display: inline-block;
+}

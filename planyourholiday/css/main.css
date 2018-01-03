@@ -1,0 +1,18 @@
+body{
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+.wr-full > h1{
+	text-align: center;
+}
+.placeName{
+	padding-left: 10px;
+	display: inline-block;
+}
+.rating{
+	float: right;
+	padding-right: 10px;
+}
+.padding-ad{
+	padding-left: 50px;
+}
