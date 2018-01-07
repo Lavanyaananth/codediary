@@ -1,6 +1,8 @@
 
-var today = new Date();
+	onload = function () {
+	var today = new Date();
 var dd = today.getDate();
+var day;
 
 var mm = today.getMonth()+1; 
 var yyyy = today.getFullYear();
@@ -13,14 +15,17 @@ if(mm<10)
 {
     mm='0'+mm;
 } 
-today = mm+'-'+dd+'-'+yyyy;
-console.log(today);
-today = mm+'/'+dd+'/'+yyyy;
-console.log(today);
-today = dd+'-'+mm+'-'+yyyy;
-console.log(today);
+// today = mm+'-'+dd+'-'+yyyy;
+// console.log(today);
+// today = mm+'/'+dd+'/'+yyyy;
+// console.log(today);
+// today = dd+'-'+mm+'-'+yyyy;
+// console.log(today);
 today = dd+'/'+mm+'/'+yyyy;
 console.log(today);
+
+console.log(today);
+
 var d = new Date();
 var weekday = new Array(7);
 weekday[0] =  "Sunday";
@@ -32,4 +37,8 @@ weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
 var n = weekday[d.getDay()];
+ document.getElementById("day").innerHTML = n;
 console.log(n);
+
+
+};
