@@ -1,3 +1,18 @@
-body{
-background-color:#b2a26e;	
-	}
+body {
+    background-color: #9fd6a7;
+    font-family: 'Comfortaa', cursive;
+}
+.wrapper{
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20%;
+	color: #000;
+	font-size: 48px;
+	font-weight: 300;
+
+}
+#day , #date{
+	padding-bottom: 20px;
+}
+

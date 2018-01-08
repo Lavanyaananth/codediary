@@ -36,9 +36,36 @@ weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
+switch (new Date().getDay()) {
+    case 0:
+      	word ="Sun day Fun day";
+        break;
+    case 1:
+    	word ="Work hard play hard";
+       console.log(word);
+        break;
+    case 2:
+        word="All happiness depends on courage and work.";
+        break;
+    case 3:
+        word="Out of clutter, find simplicity."
+        break;
+    case 4:
+        word = "Work without love is slavery";
+        break;
+    case 5:
+        word = "Pleasure in the job puts perfection in the work.";
+        break;
+    case  6:
+        word = "Don't mistake activity with achievement.";
+}
+
 var n = weekday[d.getDay()];
  document.getElementById("day").innerHTML = n;
 console.log(n);
 
-
+var w = word;
+ document.getElementById("wording").innerHTML = w;
+ var date = today;
+ document.getElementById("date").innerHTML = date;
 };
