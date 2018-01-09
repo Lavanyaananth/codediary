@@ -1,0 +1,32 @@
+$button-bg:#306895;
+$white:#fff;
+body,html{
+  margin: 0;
+  padding:0;
+  background-color: #fe3040;
+}
+.wrapper{
+  display: flex;
+  flex: 1;
+  height:100vh;
+  justify-content: center;
+  align-items: center;
+  button{
+    width: 10rem;
+    height: 5rem;
+    display: block;
+    background-color: $button-bg;
+    border:none;
+    color:$white;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    transition: all .35s ease;
+    cursor:pointer;
+    &:hover{
+      background-color: #307890;
+    }
+    &:focus{
+      outline:none;
+    }
+  }
+}

@@ -15,14 +15,9 @@ if(mm<10)
 {
     mm='0'+mm;
 } 
-// today = mm+'-'+dd+'-'+yyyy;
-// console.log(today);
-// today = mm+'/'+dd+'/'+yyyy;
-// console.log(today);
-// today = dd+'-'+mm+'-'+yyyy;
-// console.log(today);
-today = dd+'/'+mm+'/'+yyyy;
+today = dd+'-'+mm+'-'+yyyy;
 console.log(today);
+
 
 console.log(today);
 
@@ -66,6 +61,7 @@ console.log(n);
 
 var w = word;
  document.getElementById("wording").innerHTML = w;
+
  var date = today;
  document.getElementById("date").innerHTML = date;
 };
