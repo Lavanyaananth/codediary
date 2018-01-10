@@ -1,0 +1,29 @@
+body{
+	font-family: 'Happy Monkey', cursive;
+	background-color: #43bceb;
+}
+.wrapper{
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 15%;
+	color: #e2e2e2;
+	font-size: 32px;
+	font-weight: 300;
+
+}
+#start, #end{
+font-size: 32px;
+	font-weight: 300;	
+}
+#btn-start, #btn-reset, #btn-stop{
+	width: 200px;
+	border: 1px solid #f7f4f4;
+	color: #e2e2e2;
+	font-size: 24px;
+	font-weight: 300;
+	background-color: #43bceb;
+	padding: 10px 10px;
+	margin: 20px;
+	border-radius: 10px;
+}
