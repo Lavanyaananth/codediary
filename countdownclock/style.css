@@ -1,3 +1,5 @@
 body{
 	background-color: #21a3a2;
 }
+#container { width:400px;margin:auto;}
+h1 { font-size:5em;}
