@@ -1,3 +1,15 @@
 body{
 	background-color: #8a2136;
+	margin: 0;
+    font-family: sans-serif;
+}
+.wrapper {
+    background-color: #424242;
+    padding: 12px;
+    width: 50%;
+    margin: auto;
+    color: #CCCCCC;
+}
+.form-sub {
+    padding-top: 12px;
 }
