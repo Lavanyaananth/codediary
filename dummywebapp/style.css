@@ -1,3 +1,28 @@
 body{
-	background-color: #ac3b1e;
+	background-color: #fff;
+}
+.formWrapper{
+	width:300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20%;
+}
+#uname , #pwd{
+	margin: 10px 10px;
+	width: 250px;
+	padding: 10px 10px;
+
+}
+#login{
+	width: 275px;
+	padding: 10px 10px;
+	margin:10px 10px;
+	font-size: 18px;
+	background-color: #b2f6f5;
+	border-color: #fff;
+}
+#label1, #label2{
+	display: block;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }

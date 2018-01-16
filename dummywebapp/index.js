@@ -1,7 +1,7 @@
 window.onload = function(){
 	console.log("test");
 
-	function loginAction(){
+	function loginAction() {
 		
 		console.log("login ..");
 		var uname = document.getElementById('uname').value;
@@ -14,7 +14,14 @@ window.onload = function(){
 			document.write("user name or password you have entered is wrong");
 		}
 			
-	}	
+	}
+
 	var login = document.getElementById('login');
 login.addEventListener('click', loginAction, false);
+
+	function goHome(){
+		console.log("signing out");
+		location.href="index.html";
+	};	
+
 }
