@@ -5,5 +5,9 @@
 </head>
 <body>
 	<h1 class="mainHeading">Fahrenheit-Celsius converter</h1>
+	<form>
+		  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+	</form>
+	<p>Celcius: <span id="outputCelcius"></span></p>
 </body>
 </html>
