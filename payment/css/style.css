@@ -1,10 +1,28 @@
 body{
   background-color: #d3d3d3;
   color: #fff;
+  font-family: 'Comfortaa', cursive;
 }
 .col_one{
   background-color: #0070ba;
   height: 726px;
+  padding-left: 40px!important;
+}
+.item_wrapper > h5{
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.item_wrapper > p{
+margin-bottom: 5px;
+margin-top: 40px;
+font-size: 14px;
+font-weight: 300;
+
+}
+.item_wrapper{
+  border-bottom: 1px solid #fff;
+  margin-right: 30px;
 }
 .col_two{
   background-color: #fff;
