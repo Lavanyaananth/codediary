@@ -23,11 +23,22 @@ font-weight: 300;
 .item_wrapper{
   border-bottom: 1px solid #fff;
   margin-right: 30px;
+  
 }
 .col_two{
   background-color: #fff;
     height: 726px;
+    color: #000;
 }
 .full_length{
   max-width: 1309px!important;
+}
+.pay{
+  padding: 40px 40px;
+  width: 200px;
+  display: inline-block;
+}
+.d_text{
+  display: inline-block;
+  padding: 40px 40px;
 }
