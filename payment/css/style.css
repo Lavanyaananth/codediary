@@ -39,6 +39,12 @@ font-weight: 300;
   display: inline-block;
 }
 .d_text{
-  display: inline-block;
-  padding: 40px 40px;
+      display: inline-block;
+    padding: 30px 50px;
+    float: right;
+    color: #d3d3d3;
+}
+.item_wrapper_right{
+  border-bottom: 1px solid #B4C2CE;
+  margin: 40px 40px;
 }
