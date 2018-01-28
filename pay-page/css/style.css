@@ -1,0 +1,10 @@
+.header_nav{
+	height: 70px;
+	background-color: rgba(178,209,219,0.1);
+	text-align: center;
+}
+.header_nav > a {
+	padding: 10px 10px;
+    top: 20px;
+    position: relative;
+}
