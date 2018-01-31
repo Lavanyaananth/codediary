@@ -48,3 +48,8 @@ font-weight: 300;
   border-bottom: 1px solid #B4C2CE;
   margin: 40px 40px;
 }
+.generateBtn{
+  width: 300px;
+  padding: 20px 20px;
+  font-size: 20px;
+}
