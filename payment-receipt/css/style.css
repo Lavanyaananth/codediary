@@ -52,4 +52,19 @@ font-weight: 300;
   width: 300px;
   padding: 20px 20px;
   font-size: 20px;
+  border-radius: 5px;
+  border-color: #0070ba;
+
+}
+.generateBtn:hover{
+  background-color:#0070ba;
+  cursor: pointer;
+  color: #fff; 
+}
+.buttonWrapper{
+  margin-left: 25%;
+
+}
+.w_text{
+  padding-left: 40px;
 }
