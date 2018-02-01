@@ -1,6 +1,13 @@
 onload = function(){
 console.log("helll");
-$('.doneBtn').hover(function () {
-  $(this).addClass('magictime puffIn');
-});	
+
+
+}
+function generate(){
+	swal({
+  title: "Receipt generated!",
+  text: "View the receipt from your Finder!",
+  icon: "success",
+  button: "Close"
+})
 }

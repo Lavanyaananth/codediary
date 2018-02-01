@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
@@ -53,12 +54,13 @@
 				<div class="item_wrapper">
 					<p class="w_text">It may take few seconds for this transaction to appear in your account.</p>
 				</div>
-				<div class="item_wrapper">
-					<p class="w_text">www.paypal.com/help</p>
-					<p class="w_text">Invoice ID : 0263329</p>
+				<div class="item_wrapper" style="margin-bottom:50px;">
+					<p class="w_text" style="color:#d2d2d2">www.paypal.com/help</p>
+					<p class="w_text" style="float:right;color:#d2d2d2;padding-right:80px">Invoice ID : 0263329</p>
 				</div>
 				<div class="buttonWrapper">
-					<button class="generateBtn">Generate Receipt</button>
+					<a  href="images/img.svg" download="images/img.svg" class="generateBtn" onclick="generate()">Generate Receipt</a>
+					
 				</div>
 			</div>
 			

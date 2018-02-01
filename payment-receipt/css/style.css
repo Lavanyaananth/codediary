@@ -5,7 +5,7 @@ body{
 }
 .col_one{
   background-color: #0070ba;
-  height: 726px;
+  height: 730px;
   padding-left: 40px!important;
 }
 .item_wrapper > h5{
@@ -27,7 +27,7 @@ font-weight: 300;
 }
 .col_two{
   background-color: #fff;
-    height: 726px;
+    height: 730px;
     color: #000;
 }
 .full_length{
@@ -46,15 +46,18 @@ font-weight: 300;
 }
 .item_wrapper_right{
   border-bottom: 1px solid #B4C2CE;
-  margin: 40px 40px;
+  margin: 10px 40px;
 }
 .generateBtn{
   width: 300px;
   padding: 20px 20px;
-  font-size: 20px;
+  font-size: 16px;
   border-radius: 5px;
   border-color: #0070ba;
-
+  text-decoration: none;
+  border: 1px solid #0070ba;
+  color: #000;
+  
 }
 .generateBtn:hover{
   background-color:#0070ba;
@@ -67,4 +70,6 @@ font-weight: 300;
 }
 .w_text{
   padding-left: 40px;
+  display: inline-block;
+
 }
