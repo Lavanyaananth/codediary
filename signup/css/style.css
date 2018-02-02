@@ -1,0 +1,13 @@
+.col_one{
+	background-color: #d3d3d3;
+}
+.col_two{
+	background-color: #f2f2f2;
+	padding: 0px!important;
+}
+.full_length_row{
+	max-width: 1310px!important;
+}
+.col_two > img{
+	height: 100%;
+}
