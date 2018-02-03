@@ -40,10 +40,16 @@
 	font-size: 16px;
 	font-weight: 300;
 }
+.signup_btn:hover{
+	cursor:pointer;
+}
 .google_btn{
 	padding: 10px;
 	width: 250px;
 	margin: 20px;
 	font-size: 16px;
 	font-weight: 300;
+}
+.google_btn:hover{
+	cursor: pointer;
 }
