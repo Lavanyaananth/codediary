@@ -4,18 +4,20 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/pills.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
 	<div class="row full_length_row">
 		<div class="column seven col_one">
 			<h4 class="heading_main">Sign up</h4>
 			<form>
-				<input placeholder="Full Name" class="full_name">
-				<input placeholder="Email ID" class="email_address">
-				<input placeholder="Password" class="password">
+				<input placeholder="Full Name" class="full_name" required>
+				<input placeholder="Email ID" class="email_address" required>
+				<input placeholder="Password" class="password" required>
 				 <input type="checkbox" checked="checked" class="checkbox_tc"><p  class="t_c"> I agree to terms and policies</p>
-				 <button class="signup_btn">Sign Up</button>
+				 <button type="submit" class="signup_btn" onclick="successnote()">Sign Up</button>
 				 <button class="google_btn">Sign Up with Google</button>
 			</form>
 		</div>
