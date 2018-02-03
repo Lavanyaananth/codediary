@@ -1,5 +1,6 @@
 .col_one{
-	background-color: #d3d3d3;
+	background-color: #fff;
+	padding: 100px 150px!important;
 }
 .col_two{
 	background-color: #f2f2f2;
@@ -10,4 +11,39 @@
 }
 .col_two > img{
 	height: 100%;
+}
+.full_name , .email_address, .password{
+	display: block;
+	margin: 20px;
+	padding: 10px 10px;
+	width: 250px;
+}
+.heading_main{
+	padding-left: 25px;
+	font-size: 24px;
+	font-weight: 300;
+}
+.t_c{
+	font-size: 14px;
+	display: inline-block;
+
+}
+.checkbox_tc{
+	display: inline-block;
+	margin-left:20px;
+}
+.signup_btn{
+	display: block;
+	padding: 10px;
+	width: 250px;
+	margin: 20px;
+	font-size: 16px;
+	font-weight: 300;
+}
+.google_btn{
+	padding: 10px;
+	width: 250px;
+	margin: 20px;
+	font-size: 16px;
+	font-weight: 300;
 }
