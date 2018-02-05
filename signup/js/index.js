@@ -1,6 +1,6 @@
 onload = function(){
 console.log("helll");
-
+console.log("keep going");
 }
 function successnote(){
 	swal({

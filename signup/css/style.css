@@ -56,3 +56,8 @@
 input{
 	outline: none;
 }
+.home_row{
+	background-color: #1464FE;
+	max-width: 1310px;
+	color: #fff;
+}
