@@ -2,3 +2,11 @@ body{
 	background-color:  #1464FE;
 	color: #fff;
 }
+.navbar_top{
+	float: right;
+}
+.navbar_top >li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 10px;
+}
