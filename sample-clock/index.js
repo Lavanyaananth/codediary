@@ -1,4 +1,33 @@
 onload = function(){
+	var today = new Date();
+var dd = today.getDate();
+var day;
+
+var mm = today.getMonth()+1; 
+
+if(dd<10) 
+{
+    dd='0'+dd;
+} 
+
+
+var m_names = ['JAN', 'FEB', 'MAR', 
+               'APR', 'MAY', 'JUN', 'JUL', 
+               'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
+
+d = new Date();
+var n = m_names[d.getMonth()]; 
+
+console.log(n);
+
+today = dd+' '+n;
+console.log(today);
+
+
+
+var date = today;
+ document.getElementById("date").innerHTML = date;
+
 	$(function(){
 	Time.install();
 });

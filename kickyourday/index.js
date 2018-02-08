@@ -31,6 +31,15 @@ weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
+var m_names = ['January', 'February', 'March', 
+               'April', 'May', 'June', 'July', 
+               'August', 'September', 'October', 'November', 'December'];
+
+d = new Date();
+var n = m_names[d.getMonth()]; 
+
+console.log(n);
+
 switch (new Date().getDay()) {
     case 0:
       	word ="Sun day Fun day";

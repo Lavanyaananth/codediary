@@ -1,7 +1,8 @@
 body{
 	margin:0;
 	color:#444;
-	font:300 18px/18px Roboto, sans-serif;
+	font-family: 'Roboto Mono', monospace;;
+
 }
 *,:after,:before{box-sizing:border-box}
 .pull-left{float:left}
@@ -47,14 +48,14 @@ body{
 	animation-duration:.4s;
 }
 .time-wrap .time-base{
-	width:180px;
-	height:260px;
-    margin-top:-130px;
-	background:#dde5eb;
-    margin-left:-90px;
-	border-radius:100px / 30px;
-	animation-delay:.4s;
-	animation-duration:.4s;
+    width: 190px;
+    height: 270px;
+    margin-top: -120px;
+    background: #dde5eb;
+    margin-left: -90px;
+    border-radius: 100px / 30px;
+    animation-delay: .4s;
+    animation-duration: .4s;
 }
 .time-wrap .time-belt{
 	z-index:1;
@@ -78,11 +79,10 @@ body{
 .time-wrap .time-belt:after{right:0}
 
 .time-wrap .time-wheel{
-	left:auto;
-	right:45px;
+	left:328px;
 	width:30px;
 	height:30px;
-	margin-top:-15px;
+	margin-top:-2px;
 	background:#c7d9e3;
 	border-radius:0 10px 10px 0;
 	animation-delay:1.6s;
@@ -109,8 +109,8 @@ body{
 }
 .time-wrap .time-clock{
 	z-index:5;
-	width:240px;
-	height:240px;
+	width:260px;
+	height:260px;
 	background:#fff;
 	border-radius:50%;
 	margin-top:-120px;
@@ -270,4 +270,20 @@ body{
 @keyframes showArrow{
 	0%{transform:rotate(90deg) scale(0)}
 	100%{transform:rotate(90deg) scale(1)}
+}
+#date{
+	text-align: center;
+	padding-top: 40px;
+	font-size: 12px;
+	font-weight:600;
+}
+.notify{
+	position: absolute;
+	bottom:30px;
+	left: 70px;
+	font-size: 8px;
+	color: #d3d3d3;
+}
+.notify-span{
+	color: red;
 }
