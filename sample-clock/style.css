@@ -48,11 +48,11 @@ body{
 	animation-duration:.4s;
 }
 .time-wrap .time-base{
-    width: 190px;
+   width: 190px;
     height: 270px;
     margin-top: -120px;
     background: #dde5eb;
-    margin-left: -90px;
+    margin-left: -91px;
     border-radius: 100px / 30px;
     animation-delay: .4s;
     animation-duration: .4s;
@@ -80,8 +80,8 @@ body{
 
 .time-wrap .time-wheel{
 	left:328px;
-	width:30px;
-	height:30px;
+	width:25px;
+	height:25px;
 	margin-top:-2px;
 	background:#c7d9e3;
 	border-radius:0 10px 10px 0;
@@ -144,7 +144,7 @@ body{
 	margin-top:-0.5px;
 	position:absolute;
 	margin-left:-105px;
-	border:1px solid #314667;
+	border:1px solid #d3d3d3;
 }
 .time-wrap .time-clock .indicators>div:nth-child(2),
 .time-wrap .time-clock .letters>div:nth-child(2){
@@ -280,7 +280,7 @@ body{
 .notify{
 	position: absolute;
 	bottom:30px;
-	left: 70px;
+	left: 75px;
 	font-size: 8px;
 	color: #d3d3d3;
 }
