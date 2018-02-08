@@ -48,7 +48,7 @@ body{
 	animation-duration:.4s;
 }
 .time-wrap .time-base{
-   width: 190px;
+   width: 183px;
     height: 270px;
     margin-top: -120px;
     background: #dde5eb;
@@ -79,7 +79,7 @@ body{
 .time-wrap .time-belt:after{right:0}
 
 .time-wrap .time-wheel{
-	left:328px;
+	left:318px;
 	width:25px;
 	height:25px;
 	margin-top:-2px;
@@ -114,7 +114,7 @@ body{
 	background:#fff;
 	border-radius:50%;
 	margin-top:-120px;
-	margin-left:-120px;
+	margin-left:-130px;
 	border:10px solid #dde5eb;
 	/*box-shadow:0 0 0 5px #c7d9e3 inset,-6px 6px 0 0 rgba(0,0,0,.1);*/
 	animation-delay:1s;
