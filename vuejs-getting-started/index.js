@@ -1,7 +1,10 @@
-console.log("vue it is ");
+onload = function(){
+	console.log("vue it is ");
 var app = new Vue({
   el: '#app',
   data: {
-    message: 'Hello Vue!'
+    condition: true,
+    conditionnot: false
   }
 })
+}
