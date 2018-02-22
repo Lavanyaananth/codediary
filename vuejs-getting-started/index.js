@@ -1,5 +1,6 @@
 onload = function(){
 	console.log("vue it is ");
+	console.log("dummy commit");
 
 var app = new Vue({
   el: '#app',
